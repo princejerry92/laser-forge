@@ -17,7 +17,7 @@ load_dotenv()
 app = Flask(__name__, template_folder='templates')
 
 # Set your Mistral API key
-api_key = "ktgGKrYBZQz9FlHs26EYxSPtQjOR38CA"
+api_key = "oops!"
 model = "mistral-large-latest"
 client = MistralClient(api_key=api_key)
 
